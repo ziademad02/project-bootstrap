@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+  object-fit: cover;
+}
+.contact-section {
+      padding: 80px 0;
+      background: #f8f8f8;
+    }
+
+    .contact-title {
+      font-size: 60px;
+      font-weight: 700;
+    }
+
+    .contact-subtitle {
+      color: #888;
+      line-height: 1.8;
+    }
+
+    .contact-box i {
+      font-size: 35px;
+      color: #222;
+      margin-bottom: 20px;
+      display: inline-block;
+    }
+
+    .contact-box h4 {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+
+    .contact-box a {
+      color: #222;
+      text-decoration: underline;
+      font-size: 18px;
+    }
+
+    .contact-box p {
+      color: #888;
+      margin-top: 10px;
+    }
+
+    .social-icons i {
+      font-size: 22px;
+      margin-right: 12px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .social-icons i:hover {
+      color: #0d6efd;
+    }
+    .live-dot {
+      width: 10px;
+      height: 10px;
+      background: #1dd75b;
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 8px;
+    }
+
+.contact-section{
+  padding: 50px 0;
+}
+
+.contact-section .container{
+  max-width: 900px;
+}
+.section-title{
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 35px;
+  color: #000;
+}
+
+.custom-input{
+  background: #e9ecef;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 16px;
+  font-size: 16px;
+  box-shadow: none !important;
+}
+
+.custom-input::placeholder{
+  color: #777;
+}
+
+textarea.custom-input{
+  resize: none;
+  height: 140px;
+}
+
+.contact-btn{
+  background: #000;
+  color: #fff;
+  width: 100%;
+  border: none;
+  padding: 14px;
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: 700;
+  transition: 0.3s;
+}
+.contact-btn:hover{
+  background: red;
+}
+
+.map-section{
+      width: 100%;
+      height: 400px;
+      overflow: hidden;
+      margin-bottom: 50px;
+    }
+
+    .map-section iframe{
+      width: 100%;
+      height: 100%;
+      border: 0;
+      display: block;
+    }
+
+.store-section{
+  padding: 60px 0;
+}
+
+.store-title{
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.store-card img{
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.store-card h3{
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+
+.store-card p{
+  color: #777;
+  font-size: 17px;
+  line-height: 1.7;
+  margin-bottom: 8px;
+}
+
+.store-card span{
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 20px;
+}
